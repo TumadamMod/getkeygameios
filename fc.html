@@ -102,7 +102,7 @@
         <div class="meta"><span>Miễn phí</span> · <span>17/01/2026</span></div>
 
         <div class="actions">
-          <a id="installBtn" class="btn primary">Cài Đặt</a>
+<a class="btn primary" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/autoup/fc.plist">Cài Đặt</a>
           <a class="btn ghost" href="https://layma.net/h3XoVAjXo">Tải IPA No Key</a>
         </div>
       </div>
@@ -154,34 +154,6 @@
     </footer>
     <div class="bottom-space"></div>
   </main>
-
-<script>
-const btn = document.getElementById("installBtn");
-btn.addEventListener("click", e => {
-  e.preventDefault();
-  // tạo khung chọn trong trang
-  const box = document.createElement("div");
-  box.innerHTML = `
-    <div style="position:fixed;inset:0;background:rgba(0,0,0,0.6);
-                display:flex;align-items:center;justify-content:center;z-index:9999">
-      <div style="background:#fff;padding:20px;border-radius:12px;text-align:center;width:280px">
-        <p style="margin:0 0 16px 0;font-weight:700">Chọn phiên bản bạn muốn tải:</p>
-        <button id="ver7" style="padding:8px 16px;margin:4px;border:none;border-radius:8px;background:#2d8cff;color:#fff;font-weight:700">Tải 7.0</button>
-        <button id="ver6" style="padding:8px 16px;margin:4px;border:none;border-radius:8px;background:#ccc;font-weight:700">Tải 6.0</button>
-        <button id="cancel" style="margin-top:10px;background:none;border:none;color:#666">Hủy</button>
-      </div>
-    </div>`;
-  document.body.appendChild(box);
-
-  box.querySelector("#ver7").onclick = () => {
-    window.location.href = "itms-services://?action=download-manifest&url=https://TumadamMod.github.io/autoup/manifest-1759849912260.plist";
-  };
-  box.querySelector("#ver6").onclick = () => {
-    window.location.href = "itms-services://?action=download-manifest&url=https://TumadamMod.github.io/autoup/manifest-1759849786804.plist";
-  };
-  box.querySelector("#cancel").onclick = () => box.remove();
-});
-</script>
 
 </body>
 </html>
