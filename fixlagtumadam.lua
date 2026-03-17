@@ -94,7 +94,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://100472177647993",
+    Image = "rbxassetid://108796457071734",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -311,7 +311,7 @@ v5:Destroy();
 -- end);
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/Fix-Lag.lua.txt"))()
 else
-shared.LoaderTitle = "Đăng Ký Kênh Nopermc";
+shared.LoaderTitle = "Đăng Kí Kênh Tumadam";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -398,7 +398,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://100472177647993",
+    Image = "rbxassetid://108796457071734",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
