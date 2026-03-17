@@ -3,7 +3,7 @@ local TablePlace = {7449423635,2753915549,4442272183}
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Tumadam Mod", -- Required
 	Text = "Fix Lag", -- Required
-	Icon = "rbxassetid://108796457071734", -- Optional
+	Icon = "rbxassetid://75967186543968", -- Optional
 	Duration = 15
 })
 if table.find(TablePlace,game.PlaceId) then
@@ -94,7 +94,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://108796457071734",
+    Image = "rbxassetid://75967186543968",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -398,7 +398,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://108796457071734",
+    Image = "rbxassetid://75967186543968",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
