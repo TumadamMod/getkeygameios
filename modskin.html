@@ -65,8 +65,14 @@
     <i class="fa-solid fa-angles-right icon-right" id="icon-task2"></i>
   </button>
 
+  <button class="btn-task" id="task3" disabled onclick="completeTask(3, 'https://t.me/tumadammod')">
+    <i class="fa-brands fa-telegram icon-left"></i>
+    <span id="text-task3">Tham Gia Nhóm Telegram</span>
+    <i class="fa-solid fa-angles-right icon-right" id="icon-task3"></i>
+  </button>
+
   <div class="progress-section">
-    <div class="progress-text" id="progressText">Tiến trình mở khoá 0/2</div>
+    <div class="progress-text" id="progressText">Tiến trình mở khoá 0/3</div>
     <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
   </div>
 
@@ -112,7 +118,7 @@
 
 <script>
 let completedSteps = 0;
-const totalTasks = 2;
+const totalTasks = 3;
 
 function completeTask(step, url) {
   window.open(url, '_blank');
